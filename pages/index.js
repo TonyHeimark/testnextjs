@@ -1,5 +1,5 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from 'next/head';
+import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
@@ -47,6 +47,8 @@ export default function Home() {
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
           </a>
+
+          <input type="file" name="image" accept="image/*" capture="user" />
         </div>
       </main>
 
@@ -61,5 +63,5 @@ export default function Home() {
         </a>
       </footer>
     </div>
-  )
+  );
 }
